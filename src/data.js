@@ -12,7 +12,7 @@ import Avatar1Img from '../src/assets/img/testimonials/avatar1.jpeg';
 import Avatar2Img from '../src/assets/img/testimonials/avatar2.jpg';
 import Avatar3Img from '../src/assets/img/testimonials/avatar3.jpeg';
 import LogoV2 from '../src/assets/img/logo-v2.png';
-import HeroImage from '../src/assets/img/hero-img.png';
+import HeroImage from '../src/assets/img/hero-image.png';
 import Feature1BgImg from '../src/assets/img/features/feature1_bg.png';
 import Feature2BgImg from '../src/assets/img/features/feature2_bg.png';
 import Feature3BgImg from '../src/assets/img/features/feature3_bg.png';
