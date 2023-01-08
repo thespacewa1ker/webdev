@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 // import components
-import Logo from '../assets/img/logo.png';
+import Logo from '../assets/img/new_logo.png';
 import Nav from './Nav';
 import NavMobile from './NavMobile';
 
@@ -23,7 +23,7 @@ const Header = () => {
           <div className='flex items-center gap-x-[120px]'>
             {/* logo */}
             <a href='#'>
-              <img src={Logo} alt='' />
+              <img src={Logo} style={{'width':'3.125rem', 'borderRadius':'50%'}} alt='' />
             </a>
 
             {/* nav / initially hidden / show on large screens  */}
