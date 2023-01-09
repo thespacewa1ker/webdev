@@ -8,6 +8,7 @@ import 'aos/dist/aos.css';
 import Hero from './components/Hero';
 import About from './components/About';
 import Features from './components/Features';
+import Showcase from './components/showcase';
 import Testimonials from './components/Testimonials';
 import CtaSection from './components/CtaSection';
 import Footer from './components/Footer';
@@ -23,6 +24,7 @@ const App = () => {
       <Hero />
       <About />
       <Features />
+      <Showcase/>
       <Testimonials />
       <CtaSection />
       <Footer />

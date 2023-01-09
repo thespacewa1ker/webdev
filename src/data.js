@@ -17,6 +17,15 @@ import Feature1BgImg from '../src/assets/img/features/feature1_bg.png';
 import Feature2BgImg from '../src/assets/img/features/feature2_bg.png';
 import Feature3BgImg from '../src/assets/img/features/feature3_bg.png';
 import Feature4BgImg from '../src/assets/img/features/feature4_bg.png';
+import Dance from '../src/assets/img/carousel/dance.jpg';
+import DecorativeOne from '../src/assets/img/carousel/decorativeOne.jpg';
+import DecorativeTwo from '../src/assets/img/carousel/decorativeTwo.jpg';
+import Epic from '../src/assets/img/carousel/epic.jpg';
+import Ganesha from '../src/assets/img/carousel/ganesha.jpg';
+import Project1 from '../src/assets/img/carousel/project1.jpg';
+import Project2 from '../src/assets/img/carousel/project2.jpg';
+import Project3 from '../src/assets/img/carousel/project3.jpg';
+import Ship from '../src/assets/img/carousel/ship.jpg';
 
 export const navigationData = [
   {
@@ -186,3 +195,33 @@ export const copyrightData = {
   text: '© Bombe, 2022. All rights reserved. Company Registration Number: ***.',
   icon: <BsChatDotsFill />,
 };
+
+export const toys = [
+  { 
+    image:Dance,
+  },
+  {
+    image:DecorativeOne,
+  },
+  {
+    image:DecorativeTwo,
+  },
+  {
+    image:Epic,
+  },
+  {
+    image:Ganesha,
+  },
+  {
+    image:Project1,
+  },
+  {
+    image:Project2,
+  },
+  {
+    image:Project3,
+  },
+  {
+    image:Ship
+  }
+];

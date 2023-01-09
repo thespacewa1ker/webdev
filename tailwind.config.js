@@ -1,3 +1,5 @@
+const { FaBluetooth } = require("react-icons/fa");
+
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
@@ -21,6 +23,7 @@ module.exports = {
       colors: {
         primary: '#212353',
         secondary: '#4B5D68',
+        carousel:'#FADA9D',
         accent: {
           primary: '#f69735',
           primary_hover: '#2a9af0',
