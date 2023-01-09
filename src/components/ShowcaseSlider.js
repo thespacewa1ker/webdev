@@ -24,7 +24,7 @@ const ShowcaseSlider = () => {
         clickable: true,
       }}
       modules={[Pagination]}
-      className='mySwiper bg-carousel'
+      className='mySwiper'
     >
       {toys.map((slide, index) => {
         // destructure slide
@@ -33,10 +33,10 @@ const ShowcaseSlider = () => {
           // slide
           <SwiperSlide
             key={index}
-            className='bg-carousel rounded-[20px] border border-accent-primary xl:max-w-[645px] max-h-[700px] pt-[60px] px-[35px] xl:px-[70px] pb-[50px] flex items-start gap-x-[30px] shadow-xl'
+            className='rounded-[20px] border xl:max-w-[645px] max-h-[700px] pt-[60px] px-[35px] xl:px-[70px] pb-[50px] flex justify-center items-start gap-x-[30px] shadow-xl'
           >
             {/* avatar image */}
-            <img src={image} alt='' style={{alignSelf:'center'}} />
+            <img src={image} alt='' style={{alignSelf:'center', width:'80%', height:'80%'}} />
             
           </SwiperSlide>
         );

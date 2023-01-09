@@ -201,10 +201,16 @@ export const toys = [
     image:Dance,
   },
   {
+    image:Project2,
+  },
+  {
     image:DecorativeOne,
   },
   {
     image:DecorativeTwo,
+  },
+  {
+    image:Project1,
   },
   {
     image:Epic,
@@ -213,13 +219,7 @@ export const toys = [
     image:Ganesha,
   },
   {
-    image:Project1,
-  },
-  {
     image:Project2,
-  },
-  {
-    image:Project3,
   },
   {
     image:Ship
