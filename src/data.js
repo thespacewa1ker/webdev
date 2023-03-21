@@ -182,7 +182,7 @@ export const footerData = {
     },
     {
       icon: <FaInstagram />,
-      href: 'https://www.instagram.com/channapatna_toys_emporium/',
+      href: 'https://www.instagram.com/__bombe___/',
     },
     {
       icon: <FaGithub />,
